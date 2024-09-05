@@ -1,1 +1,0 @@
-This sample shows how you can set up the SAADC for continous sampling.
