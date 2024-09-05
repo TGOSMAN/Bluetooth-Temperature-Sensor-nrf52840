@@ -1,0 +1,10 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}"
+    ],
+    "files.associations": {
+        "nrf_pwm.h": "c",
+        "addr.h": "c",
+        "pwm.h": "c"
+    }
+}
