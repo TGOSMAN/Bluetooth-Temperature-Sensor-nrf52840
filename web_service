@@ -1,0 +1,10 @@
+digraph "Web Service" {
+	graph [fontcolor="#2D3436" fontname="Sans-Serif" fontsize=15 label="Web Service" nodesep=0.60 pad=2.0 rankdir=LR ranksep=0.75 splines=ortho]
+	node [fixedsize=true fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13 height=1.4 imagescale=true labelloc=b shape=box style=rounded width=1.4]
+	edge [color="#7B8894"]
+	"18cbbb5bff5e4cf088c4c11d1eab7c53" [label=lb height=1.9 image="C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\resources/aws/network\elastic-load-balancing.png" shape=none]
+	"7ab55ed0dc63470e8ff2c2c74f0fb7f5" [label=web height=1.9 image="C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\resources/aws/compute\ec2.png" shape=none]
+	"18cbbb5bff5e4cf088c4c11d1eab7c53" -> "7ab55ed0dc63470e8ff2c2c74f0fb7f5" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+	"2f6ece3d238f478d970577a34baa3433" [label=userdb height=1.9 image="C:\Users\User\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\resources/aws/database\rds.png" shape=none]
+	"7ab55ed0dc63470e8ff2c2c74f0fb7f5" -> "2f6ece3d238f478d970577a34baa3433" [dir=forward fontcolor="#2D3436" fontname="Sans-Serif" fontsize=13]
+}
