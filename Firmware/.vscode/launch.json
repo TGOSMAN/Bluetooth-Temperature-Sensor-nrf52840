@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "nrf-connect",
+			"request": "launch",
+			"name": "Launch build",
+			"config": "c:/Users/thoma/OneDrive/Documents/Nordik_Exercises/Nordic_SDK_INT_Learning/WS2812_Addressing/build",
+			"runToEntryPoint": "main"
+		}
+	]
+}

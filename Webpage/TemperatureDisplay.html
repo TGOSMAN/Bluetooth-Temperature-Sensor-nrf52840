@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Temperature Display</title>
+    <link rel="stylesheet" href="TemperatureDisplayStyle.css">
+</head>
+<body>
+    <h1 class="underlined">Temperature Sensing Bluetooth webpage</h1>
+    <h2 id="temperature_data"> 25 &#8451;</h2>
+    <button id="btn_scan" onclick=" discoverDevicesOrDisconnect()">Find Devices</button>
+    <button id="btn_notify" onclick="toggleTemperatureNotifications()"> Notifications</button>
+    <script src="Webbluetooth.js"></script>
+</body>
+</html>

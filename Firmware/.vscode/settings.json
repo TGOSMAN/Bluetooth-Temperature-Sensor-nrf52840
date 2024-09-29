@@ -1,0 +1,19 @@
+{
+    "nrf-connect.applications": [
+        "${workspaceFolder}"
+    ],
+    "files.associations": {
+        "nrf_pwm.h": "c",
+        "addr.h": "c",
+        "pwm.h": "c",
+        "kernel.h": "c",
+        "math_extras.h": "c",
+        "bluetooth.h": "c",
+        "nrfx_gppi.h": "c",
+        "nrfx_errors.h": "c",
+        "printk.h": "c",
+        "gap.h": "c",
+        "gatt.h": "c",
+        "uuid.h": "c"
+    }
+}
